@@ -34,7 +34,7 @@ const SearchBar = ({ onSearch }) => {
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Look for one or multiple ingredients (comma-separated), or the number of a recipe"
         />
-        <button onClick={handleSearch} disabled={!query.trim()}>
+        <button onClick={handleSearch}>
           Search
         </button>
       </div>

@@ -5,7 +5,7 @@ const recipes = require('../data/recipes.json');
 const getRecipesByIngredients = (req, res) => {
   const ingredientsQuery = req.query.ingredients;
   if (!ingredientsQuery) {
-    return res.status(400).json({ error: 'Ingredients query parameter is required.' });
+    return res.status(200).json(recipes);
   }
 
   const ingredientsArray = ingredientsQuery.split(',').map(ingredient => ingredient.trim().toLowerCase());

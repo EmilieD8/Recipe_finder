@@ -2,7 +2,7 @@ import React from 'react';
 import RecipeCard from '../RecipeCard/RecipeCard';
 import './RecipeList.css';
 
-const RecipeList = ({ recipes, onRecipeClick, error }) => {
+const RecipeList = ({ recipes, error }) => {
   if (error) {
     return <p>{error}</p>;
   }
@@ -17,7 +17,6 @@ const RecipeList = ({ recipes, onRecipeClick, error }) => {
           <RecipeCard 
           key={recipe.id} 
           recipe={recipe} 
-          onRecipeClick={onRecipeClick} 
         />
         ))}
     </div>
