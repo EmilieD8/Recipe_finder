@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "Tomato Pasta",
+      "description": "A quick and easy tomato pasta recipe.",
+      "ingredients": ["tomato", "pasta", "basil", "garlic"],
+      "prepTime": 20
+    },
+    {
+      "id": 2,
+      "name": "Grilled Veggie Sandwich",
+      "description": "A sandwich filled with grilled veggies and hummus.",
+      "ingredients": ["bread", "hummus", "zucchini", "bell pepper"],
+      "prepTime": 15
+    },
+    {
+      "id": 3,
+      "name": "Mushroom Risotto",
+      "description": "A creamy risotto made with mushrooms and vegetable stock.",
+      "ingredients": ["rice", "mushrooms", "onion", "vegetable stock"],
+      "prepTime": 30
+    },
+    {
+      "id": 4,
+      "name": "Vegetable Stir-fry",
+      "description": "A quick stir-fry with mixed vegetables and soy sauce.",
+      "ingredients": ["broccoli", "carrot", "pepper", "soy sauce"],
+      "prepTime": 15
+    },
+    {
+      "id": 5,
+      "name": "Lentil Soup",
+      "description": "A hearty soup made with lentils, carrots, and celery.",
+      "ingredients": ["lentils", "carrots", "celery", "onion"],
+      "prepTime": 40
+    },
+    {
+      "id": 6,
+      "name": "Greek-Inspired Salad",
+      "description": "A refreshing salad with cucumber, tomato, and vegan feta.",
+      "ingredients": ["cucumber", "tomato", "vegan feta", "olives"],
+      "prepTime": 10
+    },
+    {
+      "id": 7,
+      "name": "Chickpea Curry",
+      "description": "A mild curry with chickpeas, coconut milk, and spices.",
+      "ingredients": ["chickpeas", "coconut milk", "onion", "spices"],
+      "prepTime": 25
+    },
+    {
+      "id": 8,
+      "name": "Vegan Caprese Salad",
+      "description": "An Italian-inspired salad with tomato, basil, and cashew cheese.",
+      "ingredients": ["tomato", "basil", "cashew cheese", "olive oil"],
+      "prepTime": 10
+    },
+    {
+      "id": 9,
+      "name": "Stuffed Bell Peppers",
+      "description": "Bell peppers stuffed with quinoa, beans, and tomato sauce.",
+      "ingredients": ["bell peppers", "quinoa", "beans", "tomato sauce"],
+      "prepTime": 35
+    },
+    {
+      "id": 10,
+      "name": "Spinach and Tofu Scramble",
+      "description": "A protein-rich scramble made with tofu and spinach.",
+      "ingredients": ["tofu", "spinach", "nutritional yeast", "turmeric"],
+      "prepTime": 15
+    }
+  ]
+  
