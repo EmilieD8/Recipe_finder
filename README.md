@@ -21,8 +21,11 @@ You can sort the search result by:
 ## Implementation
 
 This is a react app with an api in Express. 
-In the project directory, you can run:
 
+To run the project, do the following:
+
+### `cd recide-finder`
+### `npm install concurrently --save-dev`
 ### `npm start`
 
 Runs the app in the development mode.\
