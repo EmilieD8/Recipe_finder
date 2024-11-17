@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import SearchBar from '../../components/SearchBar/SearchBar.tsx';
-import RecipeList from '../../components/RecipeList/RecipeList.tsx';
+import SearchBar from '../../components/Presentational/SearchBar/SearchBar.tsx';
+import RecipeList from '../../components/Presentational/RecipeList/RecipeList.tsx';
 import { fetchRecipesByIngredients, fetchRecipesById } from '../../services/api.tsx';
-import RecipeCard from '../../components/RecipeCard/RecipeCard.tsx';
-import Filter from '../../components/Filter/Filter.tsx';
+import RecipeCard from '../../components/Presentational/RecipeCard/RecipeCard.tsx';
+import Filter from '../../components/Presentational/Filter/Filter.tsx';
 import { Recipe } from '../../types.tsx';
 import './Home.scss';
 

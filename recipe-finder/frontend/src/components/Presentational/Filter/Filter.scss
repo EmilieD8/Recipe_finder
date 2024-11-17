@@ -1,0 +1,36 @@
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  
+  &__select {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: var(--background-color);
+    cursor: pointer;
+    width: 200px;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      border-color: var(--primary-color-hover);
+      background-color: var(--background-color);
+    }
+
+    &:focus {
+      outline: none;
+      background-color: var(--background-color);
+    }
+
+    &__option {
+      padding: 10px;
+
+      &[value=""] {
+        font-weight: bold;
+        color: gray;
+      }
+    }
+  }
+}

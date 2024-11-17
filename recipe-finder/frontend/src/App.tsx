@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home.tsx';
-import RecipePage from './components/RecipePage/RecipePage.tsx';
-import Header from './components/Header/Header.tsx';
+import RecipePage from './components/Logic/RecipePage/RecipePage.tsx';
+import Header from './components/Presentational/Header/Header.tsx';
 
 const App:React.FC = () => {
   return (
