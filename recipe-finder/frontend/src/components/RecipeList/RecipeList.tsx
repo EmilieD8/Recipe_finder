@@ -1,6 +1,6 @@
 import React from 'react';
 import RecipeCard from '../RecipeCard/RecipeCard.tsx';
-import './RecipeList.css';
+import './RecipeList.scss';
 import { Recipe } from '../../types';
 
 interface RecipeListProps {
@@ -18,7 +18,7 @@ const RecipeList: React.FC<RecipeListProps> = ({ recipes, error }) => {
   }
 
   return (
-    <div className='Recipes'>
+    <div className='recipes'>
         {recipes.map((recipe) => (
           <RecipeCard 
           key={recipe.id} 

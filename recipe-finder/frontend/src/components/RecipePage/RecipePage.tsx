@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 import { fetchRecipesById } from '../../services/api.tsx';
-import './RecipePage.css';
+import './RecipePage.scss';
 import { Recipe } from '../../types.tsx';
 
 
@@ -45,12 +45,12 @@ const RecipePage: React.FC = () => {
   if (!recipe) return <p>No recipe found.</p>;
 
   return (
-    <div className="RecipePage">
+    <div className="recipePage">
       <h1>{recipe.name}</h1>
       <img 
         src={`${process.env.PUBLIC_URL}${recipe.image}`} 
         alt={`${recipe.name}`} 
-        className="recipe-image" 
+        className="recipePage__image" 
       />
       <p>{recipe.description}</p>
       <h2>Prep Time:</h2>
@@ -58,11 +58,11 @@ const RecipePage: React.FC = () => {
       <h2>Ingredients:</h2>
       <ul>
         {recipe.ingredients.map((ingredient, index) => (
-          <li key={index} className="ingredient-item">
+          <li key={index} className="recipePage__ingredient">
             <input
               type="checkbox"
               id={`ingredient-${index}`}
-              className="ingredient-checkbox"
+              className="recipePage__ingredient__checkbox"
             />
             <label htmlFor={`ingredient-${index}`}>
               {ingredient.charAt(0).toUpperCase() + ingredient.slice(1)}
@@ -73,7 +73,7 @@ const RecipePage: React.FC = () => {
       <h2>Instructions:</h2>
       <ul >
         {instructions.map((instruction, index) => (
-          <li className='instruction' key={index}>{instruction}.</li>
+          <li className='recipePage__instruction' key={index}>{instruction}.</li>
         ))}
       </ul>
     </div>

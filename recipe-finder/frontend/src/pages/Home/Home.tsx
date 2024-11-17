@@ -5,7 +5,7 @@ import { fetchRecipesByIngredients, fetchRecipesById } from '../../services/api.
 import RecipeCard from '../../components/RecipeCard/RecipeCard.tsx';
 import Filter from '../../components/Filter/Filter.tsx';
 import { Recipe } from '../../types.tsx';
-import './Home.css';
+import './Home.scss';
 
 
 const Home: React.FC = () => {

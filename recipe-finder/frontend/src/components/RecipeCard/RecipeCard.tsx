@@ -1,6 +1,6 @@
 import React from "react";
 import {Recipe} from "../../types";
-import './RecipeCard.css';
+import './RecipeCard.scss';
 import { Link } from 'react-router-dom';
 
 interface RecipeCardProps {
@@ -10,11 +10,11 @@ interface RecipeCardProps {
 const RecipeCard: React.FC<RecipeCardProps> = ({ recipe }) => {
 
     return (
-        <div className='Card'>
+        <div className='card'>
             <h3>{recipe.name}</h3>
             <p>Prep time: {recipe.prepTime} minutes</p>
-            <Link to={`/recipes/${recipe.id}`}>
-                <button>View Details</button>
+            <Link to={`/recipes/${recipe.id}`} className="card__button">
+                View Details
             </Link>       
         </div>
     );
