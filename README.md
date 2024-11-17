@@ -25,7 +25,6 @@ This is a react app with an api in Express.
 To run the project, do the following:
 
 ### `cd recide-finder`
-### `npm install concurrently --save-dev`
 ### `npm start`
 
 Runs the app in the development mode.\
